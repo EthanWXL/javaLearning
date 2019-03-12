@@ -33,7 +33,7 @@ public class NewsFactory {
                    reader.readLine();//跳过空行
                    String content = reader.readLine();//读取content
                    News news = new News(title,content);//创建News对象
-                   newslist.add(news);//读取完成后，装入 newslist 中
+
                    reader.readLine();//跳过空行
                    String date = reader.readLine();//读取相关时间
                    String related_title = reader.readLine();//读取相关标题
